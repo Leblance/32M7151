@@ -3,6 +3,17 @@ Ce dépôt contient l'ensemble des cours et des matériaux utilisés dans le cad
 
 ## Liste des séances
 - Cours 1 : Introduction à la conception centrée sur l'utilisateur
+- Cours 2 : Utilisabilité et maquettage
+- Cours 3 : Accessibilité et écoconception de sites web
+- Cours 4 : Omeka S - Création d'un site et gestion des contenus
+- Cours 5 : Omeka S - Expositions virtuelles et cartes
+- Cours 6 : HTML et CSS
+- Cours 7 : Introduction à XML TEI (I)
+- Cours 8 : Introduction à XML TEI (II)
+- [Cours 9](https://github.com/Leblance/formation-cuso-2025) : TEI-Publisher - Création d'une application et ODD
+- [Cours 10](https://github.com/Leblance/formation-cuso-2025/blob/main/04_Templates.md) : TEI-Publisher - Webcomponents et templates
+- [Cours 11](https://github.com/Leblance/formation-cuso-2025/blob/main/05_Modules.md) : TEI-Publisher - Webcomponents et modules
+- [Cours 12](https://github.com/Leblance/formation-cuso-2025/blob/main/06_CSS.md) : TEI-Publisher - CSS et design
 
 ## Licence
 Sauf mention du contraire, tous les PDF et les matériaux sont sous licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
