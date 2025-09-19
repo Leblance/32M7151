@@ -1,8 +1,8 @@
 # Sites web. Application aux humanités numériques
-Ce dépôt contient l'ensemble des cours et des matériaux utilisés dans le cadre du cours 32M7151 "Sites web. Application aux humanités numériques", donné à l'Université de Genève, dans le cadre de son Certificat de spécialisation en humanités numériques.
+Ce dépôt contient l'ensemble des cours et des matériaux utilisés dans le cadre du cours 32M7151 "Sites web. Application aux humanités numériques", donné à l'Université de Genève pour le Certificat de spécialisation en humanités numériques.
 
 ## Liste des séances
-- Cours 1 : Introduction à la conception centrée sur l'utilisateur
+- [Cours 1](https://github.com/Leblance/32M7151/tree/main/Cours1) : Introduction à la conception centrée sur l'utilisateur
 - Cours 2 : Utilisabilité et maquettage
 - Cours 3 : Accessibilité et écoconception de sites web
 - Cours 4 : Omeka S - Création d'un site et gestion des contenus
