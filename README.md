@@ -6,7 +6,7 @@ Ce dépôt contient l'ensemble des cours et des matériaux utilisés dans le cad
 - Cours 2 : Utilisabilité et maquettage
 - Cours 3 : Accessibilité et écoconception de sites web
 - Cours 4 : Omeka S - Création d'un site et gestion des contenus
-- Cours 5 : Omeka S - Expositions virtuelles et cartes
+- Cours 5 : Omeka S - Visualisations et cartes
 - Cours 6 : HTML et CSS
 - Cours 7 : Introduction à XML TEI (I)
 - Cours 8 : Introduction à XML TEI (II)
