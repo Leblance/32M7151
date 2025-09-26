@@ -4,7 +4,11 @@
 (Origine, développeurs, différences entre les trois outils, modules, ressources utiles)
 
 ## 2. Showcase : Ce qu'Omeka S permet de faire
-(Liste de projets)
+- [Humazur](https://humazur.univ-cotedazur.fr/s/humazur/page/accueil) : Bibliothèque numérique de l'Université de Côte d'Azur avec gestion de grandes collections et géolocalisation
+- [Genovefa](https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/accueil) : Bibliothèque numérique de la bibliothèque Sainte-Geneviève (collections numérisées, expositions, éditions numériques)
+- [Correspondance d'Henri Poincaré](https://henripoincare.fr/s/correspondance/page/accueil) : Édition de lettres, index, données liées
+- [Ghent Mapped](https://kaart.gentgemapt.be/) : Représentation de la ville de Ghent avec une carte interactive montrant son évolution à travers le temps
+- [French theater Calendar 1799-1804](https://reve.warwick.ac.uk/s/revev1_3/page/home) : Index et données liées
 
 ## 3. Création d'un site web
 ### 3.1. Le dashboard
