@@ -28,11 +28,11 @@ Pour cette formation, vous aurez le rôle de superviseurs (*supervisor*). Vous a
    - Description : Courte présentation du site 
    - Vignette : Image ou logo de votre projet
 1. Au-dessus du formulaire, cliquer sur l'onglet "Thème" et choisissez un thème dans la liste.
-1. En haut, à droite, cliquer sur l'icône ![https://img.icons8.com/?size=20&id=84871&format=png&color=000000](https://img.icons8.com/?size=20&id=84871&format=png&color=000000) afin de passer votre site en privé. Vous pourrez le rendre public plus tard.
+1. En haut, à droite, cliquer sur l'icône ![https://img.icons8.com/?size=20&id=84871&format=png&color=000000](https://img.icons8.com/?size=20&id=84871&format=png&color=525252) afin de passer votre site en privé. Vous pourrez le rendre public plus tard.
 1. Enfin, cliquer sur le bouton "Ajouter".
 
 ### 3.3. Administrer son site
-Une fois votre site créé, de nouveaux onglets apparaissent dans le panneau de gauche. Ils sont spécifiques à votre site. Si vous cliquez sur l'icône ![https://img.icons8.com/?size=100&id=83168&format=png&color=000000](https://img.icons8.com/?size=20&id=83168&format=png&color=000000), à côté du nom de votre site, vous accèdez à l'interface publique (*front end*), celle que verront vos utilisateurs finaux.
+Une fois votre site créé, de nouveaux onglets apparaissent dans le panneau de gauche. Ils sont spécifiques à votre site. Si vous cliquez sur l'icône ![https://img.icons8.com/?size=100&id=83168&format=png&color=525252](https://img.icons8.com/?size=20&id=83168&format=png&color=525252), à côté du nom de votre site, vous accèdez à l'interface publique (*front end*), celle que verront vos utilisateurs finaux.
 Dans "sites admin", vous pouvez modifier les informations données lors de la création du site. L'onglet "Settings" offre des paramètres plus avancés :
 
 - Décocher la case "Auto-assign new items". Si cette case est active, tous les nouveaux contenus qui seront importés dans la base de données seront automatiquement associés à votre site, peu importe les utilisateurs qui les ajoutent.

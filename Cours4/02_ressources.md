@@ -12,8 +12,8 @@ Omeka S repose sur 4 types de ressources que vous pouvez gérer depuis l'espace 
 ## 1. La liste des contenus
 Lorsque vous cliquez sur l'onglet "Contenus", dans le panneau de gauche, vous accèdez à la liste de l'ensemble des contenus disponibles dans la base de données d'Omeka S, c'est-à-dire les vôtres, mais aussi ceux des autres. À côté du titre d'un contenu, trois icônes vous permettent d'interagir avec lui :
 
-- Le crayon ![https://img.icons8.com/?size=20&id=59856&format=png&color=000000](https://img.icons8.com/?size=20&id=59856&format=png&color=000000) : Éditer un contenu.
-- La poubelle ![https://img.icons8.com/?size=20&id=14237&format=png&color=000000](https://img.icons8.com/?size=20&id=14237&format=png&color=000000) : Supprimer un contenu.
+- Le crayon ![https://img.icons8.com/?size=20&id=59856&format=png&color=000000](https://img.icons8.com/?size=20&id=59856&format=png&color=525252) : Éditer un contenu.
+- La poubelle ![https://img.icons8.com/?size=20&id=14237&format=png&color=000000](https://img.icons8.com/?size=20&id=14237&format=png&color=525252) : Supprimer un contenu.
 - Les trois points horizontaux : Vue rapide des métadonnées. Pour une vue détaillée, il faut cliquer sur le titre du contenu.
 
 La liste indique également la classe de la ressource, ainsi que son propriétaire. En effet, lorsqu'un utilisateur crée un nouveau contenu, il en devient son propriétaire (*owner*). En fonction de votre rôle utilisateur, vous n'aurez pas les mêmes droits. Par exemple, les administrateurs, les superviseurs et les éditeurs peuvent modifier et supprimer n'importe quel contenu. Les relecteurs et les auteurs ont des droits uniquement sur les contenus qu'ils ont créés.
@@ -24,6 +24,7 @@ Après lui avoir donné un titre, vous avez la possibilité de choisir des types
 
 ### 2.1. Le Dublin Core : présentation
 Le Dublin Core est apparu en 1995 et devient une norme ISO en 2003. Il est maintenu par consortium appelé le [DCMI](https://www.dublincore.org/). À l'origine, il proposait un ensemble minimal de quinze métadonnées applicables un large nombre de domaines. Ces quinze éléments sont tous facultatifs et répétables. En 2001, de nouveaux termes sont créés pour compléter les éléments d'origine. On parle alors de *Dublin Core Extended*. Rapidement, les éléments d'origine et les éléments "étendus" fusionnent. Ils sont aujourd'hui regroupés sous l'espace de nom suivant : http://purl.org/dc/terms/.
+
 **Les quinze éléments d'origine**:
 
 - dc.title : Nom donné à un contenu
@@ -77,13 +78,16 @@ Si vous vous rendez maintenant sur votre site, le contenu créé apparaîtra dan
 CSV import est un module permettant d'importer en une fois plusieurs contenus et leurs métadonnées. Pour cela, les données doivent être structurées dans un fichier ```.csv```.
 
 **La préparation des données**
+
 Chaque ligne de votre fichier ```.csv``` correspond à un contenu, à une collection ou à un média ; chaque colonne, à une métadonnée. Pour faciliter le mapping entre les noms des colonnes et les propriétés Dublin Core sur Omeka, il est recommandé de nommer vos colonnes de la manière suivante : ```prefix:property```. Par exemple : ```dcterms:title```, ```dcterms:author```, etc.
-Ce module autorise les imports soit de contenus, soit de médias, soit de collections, soit un mélange des trois (*mixed resources*). :warning: Si vous choisissez d'importer plusieurs types de ressources, votre fichier ```.csv``` doit inclure deux colonnes spécifiques :
+Ce module autorise les imports soit de contenus, soit de médias, soit de collections, soit un mélange des trois (*mixed resources*). Si vous choisissez d'importer plusieurs types de ressources, votre fichier ```.csv``` doit inclure deux colonnes spécifiques :
 
 - Une colonne indiquant l'identifiant du contenu auquel un média est lié (Pour rappel, un média doit obligatoirement être rattaché à un contenu).
 - Une colonne indiquant le type de ressources (item, item set, media).
 
 Pour un exemple de fichier CSV, voir le fichier xxxx.
+
+----------
 
 **Import des données dans Omeka**
 
