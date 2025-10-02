@@ -75,6 +75,7 @@ Lorsque vous affichez la liste des collections, en cliquant sur l'onglet corresp
 Si vous vous rendez maintenant sur votre site, le contenu créé apparaîtra dans la liste des contenus de votre site, à la fois dans le back-end et le front-end.
 
 ### 4.2. Import par lot : CSV Import
+Par défaut, Omeka propose un noyau de fonctionnalités (création de contenus, de sites et de collections ; liaison des données avec des vocabulaires de base ; affichage de médias) qui peuvent être enrichies et personnalisées grâce à des [modules](https://omeka.org/s/modules/).
 CSV import est un module permettant d'importer en une fois plusieurs contenus et leurs métadonnées. Pour cela, les données doivent être structurées dans un fichier ```.csv```.
 
 **La préparation des données**
