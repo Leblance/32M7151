@@ -69,7 +69,7 @@ Lorsque vous affichez la liste des collections, en cliquant sur l'onglet corresp
     - "Charger" : Importer un média depuis votre ordinateur ;
     - "URL" : Ajouter une image via un URL ;
     - "HTML" : Code HTML ;
-    - "IIIF Image" : URL vers une image IIIF (:warning: Le lien doit pointer vers le fichier d'information de l'image ```info.json```).
+    - "IIIF Image" : URL vers une image IIIF (Le lien doit pointer vers le fichier d'information de l'image ```info.json```).
     - "IIIF Presentation" : URL vers un manifeste IIIF.
 1. Pour cet exemple, ajouter un média via un URL.
 1. Dans l'onglet "Collections", associer votre contenu à une collection.
