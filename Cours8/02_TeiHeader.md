@@ -60,7 +60,7 @@ Le ```<teiHeader>``` se compose de 4 principales catégories :
         - ```<p>``` : Description de la source d’origine sous la forme de paragraphe ;
 
     - Deuxième solution :
-        - <bibl> : Structuration légère.
+        - ```<bibl>``` : Structuration légère.
             - Première option : Pas d’encodage explicite (comme avec ```<p>```).
             Exemple : ```<bibl>Les Fleurs du Mal de Charles Beaudelaire. Paris : Poulet-Malassis et de Broise, 1861</bibl>```            
 
@@ -145,16 +145,15 @@ Le ```<teiHeader>``` se compose de 4 principales catégories :
 ```
 
 ## 3. Le Profile Description
-```<profileDesc>``` : Information sur le fichier numérique (langue, mots-clés par ex.).
+```<profileDesc>``` : Information sur le fichier numérique (langue, mots-clés par ex.).    
 
-    - ```<langUsage>``` : Langue(s) utilisée(s) dans le texte ;
-        - ```<language>``` + ```@ident```
-            - Ex : fr pour le français ; es pour l’espagnol ; ja pour le japonais ; de pour l’allemand ; etc.
-            - NB : C’est un élément répétable.
-
-    - ```<textClass>``` : Description du texte avec des mots-clés issus d’un vocabulaire contrôlé ;
-        - ```<keywords>```
-            - ```<term>```
+- ```<langUsage>``` : Langue(s) utilisée(s) dans le texte ;
+    - ```<language>``` + ```@ident```
+        - Ex : fr pour le français ; es pour l’espagnol ; ja pour le japonais ; de pour l’allemand ; etc.
+        - NB : C’est un élément répétable.
+- ```<textClass>``` : Description du texte avec des mots-clés issus d’un vocabulaire contrôlé ;
+    - ```<keywords>```
+        - ```<term>```
 
 ```
 <profileDesc>
@@ -175,9 +174,9 @@ Le ```<teiHeader>``` se compose de 4 principales catégories :
 ## 4. Le Revision Description
 ```<revisionDesc>``` : Dernier élément du ```<teiHeader>```. Permet de garder une trace de toutes les modifications apportées au fichier TEI :
 
-    - ```<change>``` : Indique toutes interventions ou tous changements apportés au document.
-        - ```@when``` : Date du changement ;
-        - ```@who``` : Identifiant de l’auteur du changement. Il pointe vers un identifiant défini dans la partie ```<titleStmt>```, avec un ```@xml:id``` associé à ```<respStmt>```.
+- ```<change>``` : Indique toutes interventions ou tous changements apportés au document.
+    - ```@when``` : Date du changement ;
+    - ```@who``` : Identifiant de l’auteur du changement. Il pointe vers un identifiant défini dans la partie ```<titleStmt>```, avec un ```@xml:id``` associé à ```<respStmt>```.
 
 ```
 <revisionDesc>
