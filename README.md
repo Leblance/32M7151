@@ -6,7 +6,7 @@ Ce dépôt contient l'ensemble des cours et des matériaux utilisés dans le cad
 - [Cours 2](https://github.com/Leblance/32M7151/tree/main/Cours2) : Utilisabilité et maquettage
 - [Cours 3](https://github.com/Leblance/32M7151/tree/main/Cours3) : Accessibilité et écoconception de sites web
 - [Cours 4](https://github.com/Leblance/32M7151/tree/main/Cours4) : Omeka S - Création d'un site et gestion des contenus
-- Cours 5 : Omeka S - Collections, navigation et design
+- [Cours 5](https://github.com/Leblance/32M7151/tree/main/Cours5) : Omeka S - Collections, navigation et design
 - Cours 6 : Omeka S - Visualisations et cartes
 - [Cours 7](https://github.com/Leblance/32M7151/tree/main/Cours7) : Introduction à XML TEI (I)
 - [Cours 8](https://github.com/Leblance/32M7151/tree/main/Cours8) : Introduction à XML TEI (II)
