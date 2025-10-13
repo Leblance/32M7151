@@ -1,7 +1,7 @@
 # Introduction à Omeka S
 
 ## 1. Présentation générale
-Omeka a été développé par le Roy Rosenzweig for History and New Media (RRHNM, George Fairfax University, Virginie) en 2008. Il a été spécifiquement conçu pour la diffusion de larges collections d'objets patrimoniaux (manuscrits, lettres, photographies, inscriptions, etc.). Son organisation reprend celles des fonds d'archives, avec des contenus structurés en collections et sous-collections.
+Omeka a été développé par le Roy Rosenzweig Center for History and New Media (RRCHNM, George Fairfax University, Virginie) en 2008. Il a été spécifiquement conçu pour la diffusion de larges collections d'objets patrimoniaux (manuscrits, lettres, photographies, inscriptions, etc.). Son organisation reprend celles des fonds d'archives, avec des contenus structurés en collections et sous-collections.
 Omeka est très utilisé par les institutions patrimoniales et de recherche, en raison de sa facilité d'utilisation et de sa mise en place. Il peut également être enrichi et personnalisé à l'aide de nombreux modules et thèmes, développés par la communauté des utilisateurs.
 
 Trois versions sont disponibles :
@@ -61,7 +61,7 @@ Une fois votre site créé, de nouveaux onglets apparaissent dans le panneau de 
 
 Dans le back-end, depuis l'onglet "Administration du site", vous pouvez modifier les informations données lors de la création du site. L'onglet "Paramètres" offre des options plus avancées :
 
-- Décocher la case "Rattacher automatiquement les nouveaux contenus". Si cette case est active, tous les nouveaux contenus qui seront importés dans la base de données seront automatiquement associés à votre site, peu importe les utilisateurs qui les ajoutent.
+- Décocher la case "Rattacher automatiquement les nouveaux contenus". Si cette case est active, tous les nouveaux contenus importés dans la base de données seront automatiquement associés à votre site, peu importe les utilisateurs qui les ajoutent.
 - Décocher la case "Afficher la pagination". Lorsqu'elle est activée, cette option permet d'afficher des boutons "Previous" et "Next" en bas de chaque page de votre site.
 - Dans la section "Langue", vous pouvez définir la langue de votre site.
 

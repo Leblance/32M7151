@@ -10,7 +10,7 @@ Omeka S propose plusieurs manières de parcourir les contenus sur l'interface pu
 
 La mise en place de la navigation par contenus ou par collections se fait à partir de l'onglet "Navigation" (Panneau de gauche du tableau de bord). C'est ici que vous pouvez gérer et organiser les onglets de votre menu de navigation. Pour l'instant, ce menu n'est composé que d'un onglet "Parcourir" (sous-entendu "les contenus"). Plusieurs types de page vous sont proposés à droite du tableau de bord. Parmi ceux-ci, vous trouverez une option de navigation par collections. Si vous cliquez dessus, un nouvel onglet s'ajoute automatiquement à la liste. Vous pouvez le personnaliser en changeant son nom. Pour changer l'ordre des onglets, faites un "glisser/déposer" en appuyant sur les trois barres horizontales, à gauche du nom de l'onglet.
 
-L'affichage des contenus, lorsque l'utilisateur clique sur l'onglet "Parcourir" de l'interace publique, est paramétrable depuis l'espace "Paramétrage du site" > "Paramétres" > Section "Parcourir" :
+L'affichage des contenus, lorsque l'utilisateur clique sur l'onglet "Parcourir" de l'interace publique, est paramétrable depuis l'espace "Paramétrage du site" > "Paramètres" > Section "Parcourir" :
 
 - "Résultats par page" : Nombre de contenus que le site affiche par page ;
 - "Configuration par défaut de la liste des contenus" : Options de tri par défaut ;

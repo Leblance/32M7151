@@ -2,7 +2,7 @@
 Omeka S repose sur 4 types de ressources que vous pouvez gérer depuis la page principale du tableau de bord ou depuis l'espace "Ressources", dans le panneau à gauche du tableau de bord :
 
 - Les contenus (*items*) : Éléments de base d'Omeka. Ils peuvent prendre la forme d'objets (*physical objects*), accompagnés de médias, ou d'entités (personnes, lieux, concepts).
-- Les médias : Contenus multimédias (numérisations, vidéos, etc.). Ils sont toujours attachés à un contenu et ne peuvent exister indépendamment dans la base de données. Vous pouvez importer des images via une URL, via IIIF ou en téléversant un fichier. Omeka accepte les [formats suivants](https://omeka.org/s/docs/user-manual/content/media/#media-file-types) :
+- Les médias : Contenus multimédias (numérisations, vidéos, etc.). Ils sont toujours attachés à un contenu et ne peuvent exister indépendamment dans la base de données. Vous pouvez importer des images via un URL, via IIIF ou en téléversant un fichier. Omeka accepte les [formats suivants](https://omeka.org/s/docs/user-manual/content/media/#media-file-types) :
     - Images : JPEG, PNG, TIFF, WEBP.
     - Vidéos : MP4, WebM, Ogg.
     - Sons : MP3, AAC.
@@ -22,7 +22,7 @@ Chaque contenu est décrit avec un ensemble de métadonnées appartenant à des 
 
 **Point sur le Dublin Core**
 
-Le Dublin Core est apparu en 1995 et devient une norme ISO en 2003. Il est maintenu par un consortium appelé le [DCMI](https://www.dublincore.org/). À l'origine, il proposait un ensemble minimal de quinze métadonnées applicables un large nombre de domaines. Ces quinze éléments sont tous facultatifs et répétables. En 2001, de nouveaux termes sont créés pour compléter les éléments d'origine. On parle alors de *Dublin Core Extended*. Rapidement, les éléments d'origine et les éléments "étendus" fusionnent. Ils sont aujourd'hui regroupés sous l'espace de nom suivant : http://purl.org/dc/terms/. La [liste de l'ensemble des termes](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) du Dublin Core et leurs spécification est disponible sur le site du DCMI.
+Le Dublin Core est apparu en 1995 et devient une norme ISO en 2003. Il est maintenu par un consortium appelé le [DCMI](https://www.dublincore.org/). À l'origine, il proposait un ensemble minimal de quinze métadonnées applicables à un large nombre de domaines. Ces quinze éléments sont tous facultatifs et répétables. En 2001, de nouveaux termes sont créés pour compléter les éléments d'origine. On parle alors de *Dublin Core Extended*. Rapidement, les éléments d'origine et les éléments "étendus" fusionnent. Ils sont aujourd'hui regroupés sous l'espace de nom suivant : http://purl.org/dc/terms/. La [liste de l'ensemble des termes](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) du Dublin Core et leurs spécifications sont disponibles sur le site du DCMI.
 
 Les quinze éléments d'origine :
 
@@ -30,7 +30,7 @@ Les quinze éléments d'origine :
 - dc.creator : Entité principale responsable de la création du contenu (Personnes, organisations)
 - dc.subject : Thèmes (Mots-clés)
 - dc.description : Description du contenu intellectuel
-- dc.source : Référence à une ressource dont le contenu est dérivée (institutions de conservation)
+- dc.source : Référence à une ressource dont le contenu est dérivé (institutions de conservation)
 - dc.publisher : Entité responsable de la mise à disposition ou diffusion du contenu
 - dc.date : Date d’un événement dans le cycle de vie de la ressource (ex : date de création, de mise à disposition, etc.)
 - dc.contributeur : Entité responsable d'une contribution au contenu
@@ -46,7 +46,7 @@ Rien que pour le Dublin Core, Omeka S propose 55 propriétés différentes ! Pou
 
 
 ## 2. Les modèles de ressource
-Les modèles de ressource vous permettent de prédéfinir une ensemble de métadonnées pour décrire un type de contenus (livre, gravures, médailles, images, sons, etc.). Vous pouvez ainsi cibler uniquement les champs de métadonnées dont vous avez besoin. La liste des modèles disponibles est accessible depuis l'onglet "Modèles de ressource" (panneau de gauche du tableau de bord). Pour créer un nouveau modèle, cliquez sur "Ajouter un nouveau modèle de ressource".
+Les modèles de ressource vous permettent de prédéfinir un ensemble de métadonnées pour décrire un type de contenu (livres, gravures, médailles, images, sons, etc.). Vous pouvez ainsi cibler uniquement les champs de métadonnées dont vous avez besoin. La liste des modèles disponibles est accessible depuis l'onglet "Modèles de ressource" (panneau de gauche du tableau de bord). Pour créer un nouveau modèle, cliquer sur "Ajouter un nouveau modèle de ressource".
 
 Le panneau à droite du tableau de bord propose la liste de l'ensemble des propriétés du Dublin Core disponibles. Pour ajouter une nouvelle propriété à votre modèle, cliquez simplement sur son nom. Le crayon vous permet de personnaliser chaque champ. Vous pouvez lui donner une description alternative, indiquer si le champ est requis ou privé, ainsi que spécifier le format de données autorisé (URI, texte, vocabulaires contrôlés, référentiels).
 Lorsque vous avez choisi les propriétés nécessaires, cliquez sur le bouton "Ajouter" en haut à droite. Vous pourrez re-modifier le modèle plus tard si besoin.
@@ -54,24 +54,22 @@ Lorsque vous avez choisi les propriétés nécessaires, cliquez sur le bouton "A
 ## 3. Créer une collection
 Lorsque vous affichez la liste des collections, en cliquant sur l'onglet correspondant dans le panneau de gauche, un bouton "Ajouter une collection" apparaît en haut à droite. Lorsque vous cliquez dessus, un formulaire avec des métadonnées s'affichent : 
 
-1. Sélectionner les métadonnées nécessaires et remplissez les champs.
+1. Sélectionner les métadonnées nécessaires et remplir les champs.
 1. Depuis l'onglet "Vignettes", vous pouvez ajouter une petite image de couverture, illustrant votre collection et qui apparaîtra dans la liste des collections.
-1. Pour valider votre collection, cliquez sur "Enregistrer" (en haut, à droite).
+1. Pour valider la collection, cliquer sur "Enregistrer" (en haut, à droite).
 
 
 ## 4. Ajouter des contenus
 ### 4.1. Méthode manuelle
 
 1. Depuis la liste des contenus, cliquer sur le bouton "Ajouter un nouveau contenu", en haut à droite.
-1. Dans l'onglet "Valeurs", sélectionner le modèle de ressources appelé "Gravures".
-1. Remplir les champs avec les informations fournies sur la gravure que vous avez choisie.
+1. Remplir les champs avec les informations fournies sur le contenu que vous avez choisi.
 1. Cliquer sur l'onglet Médias. Plusieurs options d'import vous sont proposées :
     - "Charger" : Importer un média depuis votre ordinateur ;
     - "URL" : Ajouter une image via un URL ;
     - "HTML" : Code HTML ;
     - "IIIF Image" : URL vers une image IIIF (Le lien doit pointer vers le fichier d'information de l'image ```info.json```).
     - "IIIF Presentation" : URL vers un manifeste IIIF.
-1. Pour cet exemple, ajouter un média via un URL.
 1. Dans l'onglet "Collections", associer votre contenu à une collection.
 1. Dans l'onglet "Sites", spécifier le site où le contenu sera affiché.    
 1. Pour valider votre contenu, cliquer sur "Ajouter" (toujours en haut, à droite).
@@ -91,7 +89,7 @@ Ce module autorise les imports soit de contenus, soit de médias, soit de collec
 - Une colonne indiquant l'identifiant du contenu auquel un média est lié (Pour rappel, un média doit obligatoirement être rattaché à un contenu).
 - Une colonne indiquant le type de ressources (item, item set, media).
 
-Pour un exemple de fichier CSV, voir le fichier xxxx.
+Pour un exemple de fichier CSV, voir le fichier [lovers.csv](https://github.com/Leblance/32M7151/blob/main/Cours4/lovers.csv).
 
 ----------
 
@@ -112,4 +110,4 @@ Pour un exemple de fichier CSV, voir le fichier xxxx.
         - Pour générer automatiquement des URI avec un label, dans votre fichier CSV, vous devez séparer l'URI et le label d'un espace ;
         - Pour créer plusieurs valeurs à partir d'une même cellule, ces valeurs doivent être séparer par une virgule.
     - L'onglet *Paramètres de base* offre des options de paramètrage supplémentaires. Vous pouvez appliquer à tous les contenus importés un modèle de ressource et une classe, décider si ces contenus seront publics ou privés, ou encore indiquer l'utilisateur propriétaire des données, la collection à laquelle elles appartiennent et le site où elles seront affichées.
-    - Après avoir choisi les paramètres, cliquez sur "Importer" (en haut, à droite).
+    - Après avoir choisi les paramètres, cliquer sur "Importer" (en haut, à droite).
