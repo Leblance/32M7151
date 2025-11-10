@@ -176,7 +176,8 @@ Exercie 1 :
 
 **Pour aller plus loin :**
 
-- L'encodage du théâtre : [https://teibyexample.org/tutorials/TBED05v00.htm](https://teibyexample.org/tutorials/TBED05v00.htm)
+- L'encodage du théâtre : [https://teibyexample.org/tutorials/TBED05v00.htm](https://www.teibyexample.org/exist/tutorials/TBED05v00.htm)
+- L'encodage de la poésie : [https://www.teibyexample.org/exist/tutorials/TBED04v00.htm](https://www.teibyexample.org/exist/tutorials/TBED04v00.htm)
 - L'encodage de la correspondance : [https://encoding-correspondence.bbaw.de/v1/index.html](https://encoding-correspondence.bbaw.de/v1/index.html)
 - L'encodage des dictionnaires : [https://dariah-eric.github.io/lexicalresources/pages/TEILex0/TEILex0.html](https://dariah-eric.github.io/lexicalresources/pages/TEILex0/TEILex0.html)
 
