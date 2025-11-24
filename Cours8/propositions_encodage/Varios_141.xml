@@ -50,6 +50,8 @@
    <text>
       <body>
          <div>
+            <pb n="1"/>
+            
             <div n="1" type="song">
                <head type="main" rend="bold">ARROJO DE UN AMANTE</head>
 
@@ -75,10 +77,12 @@
                   <l>y con ella se casó.</l>
                </lg>
 
-               <p>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta. Catalina,</p>
+               <fw>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta. Catalina,</fw>
             </div>
 
             <div n="2" type="song">
+               <pb n="2"/>
+               
                <head type="main" rend="bold">ROBO DE UNA HERMOSA</head>
 
                <lg>
