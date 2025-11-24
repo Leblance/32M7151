@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Arrojo de un amante : Édition numérique</title>
+            <respStmt>
+               <name xml:id="EL">Elina Leblanc</name>
+               <resp>Encodage du texte</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability status="free">
+               <licence>CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Arrojo de un amante</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Cristina Segura</publisher>
+                  <pubPlace>Barcelona</pubPlace>
+                  <date>[s.a.]</date>
+                  <idno type="DOI">10.5281/zenodo.6586608</idno>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="es">Espagnol</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Coplas</term>
+               <term>Canciones</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change resp="#EL" when="2025-08-20">Création du fichier TEI et encodage du texte</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <div n="1" type="song">
+               <head type="main" rend="bold">ARROJO DE UN AMANTE</head>
+
+               <lg>
+                  <l rend="indent">Un antiguo castellano</l>
+                  <l>tuvo una hija tan bella,</l>
+                  <l>que mil se prendaron de ella</l>
+                  <l>y pretendian su manó.</l>
+                  <l>Un militar caballero</l>
+                  <l>igualmente la pidió;</l>
+                  <l>su padre se la negó,</l>
+                  <l>y entonces dijo el guerrero:</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">No hay burlas con el amor,</l>
+                  <l>echada está ya mi suerte,</l>
+                  <l>y juro que hasta la muerte</l>
+                  <l>no tendrá otro amador.</l>
+                  <l>Dicho y hecho: la cogió,</l>
+                  <l>un momento descuidada,</l>
+                  <l>se la llevó desmayada</l>
+                  <l>y con ella se casó.</l>
+               </lg>
+
+               <p>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta. Catalina,</p>
+            </div>
+
+            <div n="2" type="song">
+               <head type="main" rend="bold">ROBO DE UNA HERMOSA</head>
+
+               <lg>
+                  <l rend="indent">Un arrogante guerrero,</l>
+                  <l>por demás enamorado,</l>
+                  <l>una bella hija ha robado</l>
+                  <l>de un princípal caballero.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">La niña está desmayada,</l>
+                  <l>y va el jinete aguerrido,</l>
+                  <l>para no ser conocido,</l>
+                  <l>con la visera calada.</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">El padre se desespera;</l>
+                  <l>queda atado debatiéndose,</l>
+                  <l>y de vista va perdiéndose</l>
+                  <l>el caballo en su carrera;</l>
+               </lg>
+
+               <lg>
+                  <l rend="indent">Pues corre veloz cual viento,</l>
+                  <l>parece no toca el suelo,</l>
+                  <l>y el padre en su desconsuelo</l>
+                  <l>fallece de sentimiento.</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
